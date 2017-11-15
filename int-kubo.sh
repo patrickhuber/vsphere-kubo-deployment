@@ -1,0 +1,11 @@
+bosh int -d kubo ~/github.com/cloudfoundry-incubator/kubo-deployment/manifests/kubo.yml \
+  --vars-store creds.yml \
+  -o resize-etcd-persistent-disk.yml \
+  -o resize-worker-persistent-disk.yml \
+  -o resize-vm-types.yml \
+  -o set-static-ips.yml \
+  -v deployments_network=default \
+  -v deployment_name=kubo \
+  -v kubernetes_master_host=192.168.2.20 \
+  -v kubernetes_master_port=443 \
+  -v kubernetes_master_haproxy_static_ips=[192.168.2.20]

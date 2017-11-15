@@ -1,0 +1,3 @@
+- type: replace
+  path: /instance_groups/name=etcd/persistent_disk_type
+  value: default
