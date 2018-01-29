@@ -1,3 +1,0 @@
-- type: replace
-  path: /instance_groups/name=master-haproxy/networks/0/static_ips?
-  value: ((kubernetes_master_haproxy_static_ips))
