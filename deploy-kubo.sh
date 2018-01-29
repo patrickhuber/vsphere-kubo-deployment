@@ -5,6 +5,7 @@ bosh deploy -d kubo submodules/github.com/cloudfoundry-incubator/kubo-deployment
   -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/iaas/vsphere/set-working-dir-no-rp.yml \
   -o ops-files/one-az.yml \
   -o ops-files/deployment-name.yml \
+  -o ops-files/remote-kubo-release.yml \
   -v master_vm_type=default \
   -v worker_vm_type=default \
   -v deployment_name=kubo \
