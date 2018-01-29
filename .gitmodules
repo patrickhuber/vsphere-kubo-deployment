@@ -1,0 +1,3 @@
+[submodule "submodules/github.com/cloudfoundry-incubator/kubo-deployment"]
+	path = submodules/github.com/cloudfoundry-incubator/kubo-deployment
+	url = https://github.com/cloudfoundry-incubator/kubo-deployment
