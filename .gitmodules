@@ -1,3 +1,0 @@
-[submodule "submodules/github.com/cloudfoundry-incubator/kubo"]
-	path = submodules/github.com/cloudfoundry-incubator/kubo-deployment
-	url = https://github.com/cloudfoundry-incubator/kubo-deployment/tree/a291edcb5ff10a79b41e1fccd825fbeebce7e090
