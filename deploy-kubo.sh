@@ -1,8 +1,11 @@
 bosh deploy -d kubo submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/cfcr.yml \
   -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/vm-types.yml \
   -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/iaas/vsphere/cloud-provider.yml \
+  -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/iaas/vsphere/master-static-ip.yml \
+  -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/iaas/vsphere/set-working-dir-no-rp.yml \
   -o ops-files/one-az.yml \
   -o ops-files/deployment-name.yml \
   -v master_vm_type=default \
   -v worker_vm_type=default \
-  -v deployment_name=kubo
+  -v deployment_name=kubo \
+  -v kubernetes_master_host=192.168.2.20
