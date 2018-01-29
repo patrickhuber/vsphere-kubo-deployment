@@ -1,6 +1,6 @@
-bosh int -d kubo ~/github.com/cloudfoundry-incubator/kubo-deployment/manifests/cfcr.yml \
-  -o ~/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/vm-types.yml \
-  -o ~/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/iaas/vsphere/cloud-provider.yml \
+bosh int -d kubo submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/cfcr.yml \
+  -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/vm-types.yml \
+  -o submodules/github.com/cloudfoundry-incubator/kubo-deployment/manifests/ops-files/iaas/vsphere/cloud-provider.yml \
   -o ops-files/one-az.yml \
   -o ops-files/deployment-name.yml \
   -o ops-files/three-masters.yml \
